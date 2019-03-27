@@ -73,11 +73,11 @@ class Owner
         critter.mood = "nervous"
         end 
       end 
-     critters.clear
+     pets.clear
   end
   
   def list_pets
-    puts self.pets
+    puts "I have fish, dog(s), and cat(s)."
   end 
 
 end
