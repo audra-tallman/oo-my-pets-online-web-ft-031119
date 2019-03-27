@@ -45,23 +45,23 @@ class Owner
     pets[:cats] << Cat.new(name)
   end 
   
-  def buy_dog(dog)
+  def buy_dog(name)
     pets[:dogs] << Dog.new(name)
   end 
 
-  def walks_dogs(dog)
+  def walks_dogs
     pets[:dogs].each do |dog|
     Dog.mood = "happy"
     end
   end
   
-  def play_with_cats(cat)
+  def play_with_cats
     pets[:cats].each do |cat|
     Cat.mood = "happy"
     end 
   end 
   
-  def feed_fish(fish)
+  def feed_fish
     pets[:fishes].each do |fish|
     Fish.mood = "happy"
     end 
